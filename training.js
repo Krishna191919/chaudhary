@@ -4,6 +4,10 @@ Homework(JS-Training)
     * Marks >= 75: B
     * Marks >= 50: C
     * Else: F
+Let marks=78 ;
+if(marks>=90){console.log("A Grade!!");
+} else if (marks>=75){console.log("B Grade!!");} else if (marks>=){console.log(" C Grade!!");} else {console.log("Fail!!");}
+ 
 
 2. Write a program that takes a year as input and checks whether it is a leap year.
 
