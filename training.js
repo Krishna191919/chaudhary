@@ -18,3 +18,17 @@ if(year%4==0){console.log("it's leap year");} else{console.log("it's not leap ye
 // output: it's leap year 
 
 3. Write a program to simulate a simple calculator using a switch statement. The user enters two numbers and an operator (+, -, *, /).
+ANSWER👇:
+Let a=40;
+Let b=50;
+Let operator="*";
+Switch(operator){
+case'*'=console.log(a*b);
+break;
+case'+'=console.log(a+b);
+break;
+case'-'=console.log(a-b);
+break;
+case'/'=console.log(a/b);
+default {console.log("Invalid operator");
+}
