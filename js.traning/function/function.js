@@ -1,3 +1,19 @@
+// types of function
+// a. Normal function without parameter
+function greet0(){
+  console.log("namaste");
+}
+greet0();
+
+// b.arrow function 
+// c. parameterized function
+function multiply(a,b){
+  let result=a*b;
+  console.log(result);
+}
+multiply(10,20);
+
+
 // 1.function declaration
 function greet(name1,name2){
     console.log("hello "+ name1+name2);
@@ -58,16 +74,7 @@ console.log(a);
   
 //   greet1("Lumbini"); // Output: Hello, Lumbini!
 
-  //4. higher order function
-  function greet3(name) {
-    name="Hello"+ name ;
-  }
-  
-  function processUserInput(callback) {
-    let name = "Lumbini";
-    console.log(callback(name));
-  }
-  processUserInput(greet3); // Output: Hello, Lumbini!
+ 
   
   
 
