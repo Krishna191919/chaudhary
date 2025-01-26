@@ -5,14 +5,35 @@ function greet0(){
 }
 greet0();
 
-// b.arrow function 
-// c. parameterized function
+// b. parameterized function
 function multiply(a,b){
   let result=a*b;
   console.log(result);
 }
 multiply(10,20);
 
+// area of circle !!
+function area(R){
+  const pi=3.14;
+  let areaofcircle=pi*R*R;
+  console.log(areaofcircle);
+}area(9);
+
+// volume of cuboid!!
+function cuboid(l,b,h){
+  let volumeofcuboid=l*b*h;
+  console.log(volumeofcuboid);
+  
+}
+cuboid(10,15,9);
+
+// c.arrow function 
+const area1 = (R) => {
+  const pi=3.14;
+   areaofcircle=pi*R*R;
+  console.log(areaofcircle);
+} 
+area1(9);
 
 // 1.function declaration
 function greet(name1,name2){
